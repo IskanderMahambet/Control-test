@@ -1,7 +1,7 @@
-viktor_shop = {'Хлеб','Молоко','Банан','Диззи','Марс','Твикс','Фанта'}
+sarzhan = {'Петя','Саня','Ваня','Даша','Саша','Серик'}
 
-your_shop = {'Хлеб','Молоко','Яблоки','Оливковое масла','Кола','Твикс','Киндер'}
+adik = {'Саня','Ваня','Виктор','Искандер','Кирилл'}
 
-print(viktor_shop & your_shop)
-print(viktor_shop - your_shop)
-print(viktor_shop | your_shop)
+print("Общие друзья Адика и Саржана",adik & sarzhan)
+print("Возможные друзья Саржана",adik - sarzhan)
+print("Возможные друзья Адика ",sarzhan-adik)
